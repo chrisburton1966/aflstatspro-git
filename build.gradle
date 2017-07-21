@@ -1,0 +1,43 @@
+buildscript {
+
+    repositories {
+
+        maven {
+            url "http://nexus.championdata.com/content/groups/championdata"
+        }
+        jcenter()
+    }
+}
+
+apply plugin: 'idea'
+
+allprojects {
+    apply plugin: 'idea'
+
+    sourceCompatibility = 1.8
+
+    repositories {
+        maven {
+            url "http://nexus.championdata.com/content/groups/championdata"
+        }
+        jcenter()
+    }
+}
+
+def jettyProjects = [project(':widget-builder')]
+
+configure(jettyProjects) {
+    apply plugin: 'jetty'
+}
+
+project(':widget-builder') {
+
+}
+
+project(':aflstatspro-client') {
+
+}
+
+project(':video') {
+
+}

@@ -1,0 +1,25 @@
+.player-filter {
+    /*overflow: hidden;*/
+    margin-top:10px;
+    margin-bottom:30px;
+
+}
+
+.player-filter .squad-select {
+    width:100px;
+    float:left;
+}
+
+.player-filter .player-select {
+    width: 450px;
+    float:left;
+}
+
+.player-filter .dropdown-section {
+    float: right;
+    margin-right:10px;
+}
+
+.player-select .Select-placeholder, .player-select.Select--single > .Select-control .Select-value {
+    text-align: left;
+}

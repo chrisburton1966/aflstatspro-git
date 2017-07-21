@@ -1,0 +1,748 @@
+@media screen and (min-device-width: 552.5px){
+    #cdw_lbl_widget{
+        border: 1pt solid rgb(230,234,239);
+        box-sizing: border-box;
+        height: auto;
+        min-height: 347pt;
+        width: 750pt;
+        line-height:1;
+    }
+
+    #cdw_lbl_widget #cdw_lbl_headerBar{
+        background-color: rgb(1,40,94);
+        height: 44pt;
+        width: 100%;
+        z-index: 1;
+        line-height:1;
+		position: relative;
+		top: 0;
+    }
+
+    #cdw_lbl_widget #cdw_lbl_headerBar .cdw_lbl_text{
+		color: white;
+		font-family: 'Titillium Web', sans-serif;
+		font-size: 20pt;
+		font-weight: bold;
+        height: 37pt;
+        width: auto;
+        line-height: 36.4pt;
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+    }
+
+    #cdw_lbl_widget #cdw_lbl_mainBody{
+        height: auto;
+        width: 100%;
+        position: relative;
+    }
+
+    #cdw_lbl_widget #cdw_lbl_mainBody #cdw_lbl_firstPlayer{
+        height: 185px;
+        width: 100%;
+        position: relative;
+    }
+
+    #cdw_lbl_widget #cdw_lbl_mainBody #cdw_lbl_firstPlayer #cdw_lbl_teamLogo{
+        height: 70pt;
+        width: 70pt;
+        z-index: 2;
+        line-height:1;
+        position: absolute;
+        left: 100%;
+        top: 0;
+        transform: translateX(-100%);
+    }
+
+    #cdw_lbl_widget #cdw_lbl_mainBody #cdw_lbl_firstPlayer #cdw_lbl_teamBackground{
+        background-color: rgb(245,200,0);
+        height: 100%;
+        width: 40%;
+        z-index: 1;
+        line-height:1;
+		position: absolute;
+		top: 0;
+        right: 0;
+    }
+
+    #cdw_lbl_widget #cdw_lbl_mainBody #cdw_lbl_firstPlayer  #cdw_lbl_playerPhoto{
+        height: 180px;
+        width: auto;
+        position: absolute;
+        top: 100%;
+        left: 60%;
+        z-index: 2;
+        line-height:1;
+        transform: translate(-50%, -100%)
+    }
+
+    #cdw_lbl_widget #cdw_lbl_mainBody #cdw_lbl_firstPlayer .cdw_lbl_statRank.cdw_lbl_first{
+        color: rgb(38,36,36);
+        font-size: 20pt;
+        font-family: 'Titillium Regular', sans-serif;
+        height: 61pt;
+        width: 12pt;
+        line-height: 61pt;
+		position: absolute;
+		top: 50%;
+        left: 17.7pt;
+        transform: translateX(-50%);
+        letter-spacing: 0;
+    }
+
+    #cdw_lbl_widget #cdw_lbl_mainBody #cdw_lbl_firstPlayer .cdw_lbl_playerName.cdw_lbl_first{
+        color: rgb(2,31,73);
+        letter-spacing: 0.2pt;
+        height: 61.6pt;
+        width: 234.8pt;
+        position: absolute;
+		top: 50%;
+        left: 155.2pt;
+        transform: translateX(-50%);
+    }
+
+    #cdw_lbl_widget #cdw_lbl_mainBody #cdw_lbl_firstPlayer .cdw_lbl_playerName.cdw_lbl_first .cdw_lbl_givenName{
+        font-family: 'Titillium Regular', sans-serif;
+        font-size: 22pt;
+        line-height: 30.8pt;
+    }
+
+    #cdw_lbl_widget #cdw_lbl_mainBody #cdw_lbl_firstPlayer .cdw_lbl_playerName.cdw_lbl_first .cdw_lbl_surname{
+        font-family: 'Titillium', sans-serif;
+        font-size: 28.6pt;
+        font-style: italic;
+        font-weight: bold;
+        line-height: 30.8pt;
+    }
+
+    #cdw_lbl_widget #cdw_lbl_mainBody #cdw_lbl_firstPlayer .cdw_lbl_stat{
+        color: rgb(1,40,94);
+        font-family: 'Titillium', sans-serif;
+        font-size: 49.9pt;
+        font-style: italic;
+        font-weight: bold;
+        letter-spacing: -1.4pt;
+        height: 49pt;
+        width: auto;
+        position: absolute;
+        top: 50%;
+        left: 344.5pt;
+        transform: translateX(-50%);
+        line-height: .6;
+    }
+
+    #cdw_lbl_widget #cdw_lbl_mainBody #cdw_lbl_firstPlayer .cdw_lbl_statCompare.cdw_lbl_first{
+        height: 13pt;
+        top: calc(50% + 49pt);
+        left: 344.5pt;
+        width: auto;
+        position: absolute;
+        transform: translateX(-50%);
+    }
+
+    #cdw_lbl_widget #cdw_lbl_mainBody #cdw_lbl_firstPlayer .cdw_lbl_statCompare .cdw_lbl_colour{
+        border-radius: 50%;
+        float: left;
+        line-height:1;
+        height: 10.8pt;
+        width: 10.8pt;
+    }
+
+    #cdw_lbl_widget #cdw_lbl_mainBody #cdw_lbl_firstPlayer .cdw_lbl_statCompare .cdw_lbl_text{
+        height: 13pt;
+        color: rgb(155,155,155);
+        float: left;
+        font-family: 'Titillium', sans-serif;
+        font-size: 13pt;
+        font-style: italic;
+        font-weight: 600;
+        letter-spacing: .1pt;
+        position: relative;
+        margin-right: 4.1pt;
+        line-height: .6;
+    }
+
+    #cdw_lbl_widget #cdw_lbl_mainBody .cdw_lbl_horizontalLine.cdw_lbl_first{
+        width: 100%;
+        height: 8pt;
+        background-color: rgb(230,234,239);
+    }
+
+    #cdw_lbl_widget #cdw_lbl_mainBody #cdw_lbl_otherPlayers .cdw_lbl_horizontalLine.cdw_lbl_second{
+        display: none;
+    }
+
+    #cdw_lbl_widget #cdw_lbl_mainBody #cdw_lbl_otherPlayers{
+        height: auto;
+        width: 100%;
+        position: relative;
+    }
+
+    #cdw_lbl_widget #cdw_lbl_mainBody #cdw_lbl_otherPlayers .cdw_lbl_statRow_container{
+        height: 61.749513618677042801556420233464pt;
+        width: 50%;
+        position: relative;
+        float: left;
+    }
+
+    #cdw_lbl_widget #cdw_lbl_mainBody #cdw_lbl_otherPlayers .cdw_lbl_statRow_container .cdw_lbl_statRow{
+        border-bottom: 1.3pt solid rgb(202,210,216);
+        box-sizing: border-box;
+        height: 61.749513618677042801556420233464pt;
+        width: 315.1pt;
+        position: relative;
+        left: 38.3pt;
+    }
+
+    #cdw_lbl_widget #cdw_lbl_mainBody #cdw_lbl_otherPlayers .cdw_lbl_statRow_container .cdw_lbl_statRow .cdw_lbl_statRank{
+        color: rgb(38,36,36);
+        font-family: 'Titillium Regular', sans-serif;
+        font-size: 20pt;
+        letter-spacing: 0;
+        line-height: 61pt;
+        height: 100%;
+        width: auto;
+        position: absolute;
+        right: 304.3pt;
+        transform: translateX(+50%);
+    }
+
+    #cdw_lbl_widget #cdw_lbl_mainBody #cdw_lbl_otherPlayers .cdw_lbl_statRow_container .cdw_lbl_statRow .cdw_lbl_photo{
+        height: 56.7pt;
+        width: auto;
+        position: absolute;
+        bottom: 0;
+        right: 259.4pt;
+        transform: translateX(+50%);
+    }
+
+    #cdw_lbl_widget #cdw_lbl_mainBody #cdw_lbl_otherPlayers .cdw_lbl_statRow_container .cdw_lbl_statRow .cdw_lbl_nameClub{
+        height: 36pt;
+        width: auto;
+        max-width: none;
+        letter-spacing: 0;
+        line-height: 18pt;
+        position: absolute;
+        bottom: 8pt;
+        right: 215.9pt;
+        transform: translateX(100%);
+        white-space: nowrap;
+    }
+
+    #cdw_lbl_widget #cdw_lbl_mainBody #cdw_lbl_otherPlayers .cdw_lbl_statRow_container .cdw_lbl_statRow .cdw_lbl_nameClub .cdw_lbl_name{
+        color: rgb(3,28,75);
+        font-family: 'Titillium', sans-serif;
+        font-size: 20pt;
+        font-style: italic;
+        font-weight: 600;
+        max-width: none;
+    }
+
+    #cdw_lbl_widget #cdw_lbl_mainBody #cdw_lbl_otherPlayers .cdw_lbl_statRow_container .cdw_lbl_statRow .cdw_lbl_nameClub .cdw_lbl_club{
+        color: rgb(109,109,109);
+        font-family: 'Titillium Regular', sans-serif;
+        font-size: 13pt;
+        max-width: none;
+    }
+
+    #cdw_lbl_widget #cdw_lbl_mainBody #cdw_lbl_otherPlayers .cdw_lbl_statRow_container .cdw_lbl_statRow .cdw_lbl_stat{
+        color: rgb(1,40,94);
+        font-family: 'Titillium', sans-serif;
+        font-size: 26pt;
+        font-style: italic;
+        font-weight: bold;
+        letter-spacing: -1.4pt;
+        line-height: 18pt;
+        text-align: right;
+        height: 18pt;
+        width: auto;
+        position: absolute;
+        top: 50%;
+        left: 100%;
+        transform: translate(-100%,-50%);
+    }
+
+    #cdw_lbl_widget #cdw_lbl_mainBody #cdw_lbl_otherPlayers .cdw_lbl_statRow_container .cdw_lbl_statRow .cdw_lbl_statCompare{
+        height: 13pt;
+        width: auto;
+        position: absolute;
+        bottom: 3pt;
+        right: 0;
+        white-space: nowrap;
+    }
+
+    #cdw_lbl_widget #cdw_lbl_mainBody #cdw_lbl_otherPlayers .cdw_lbl_statRow_container .cdw_lbl_statRow .cdw_lbl_statCompare .cdw_lbl_colour{
+        background-color: rgb(0,73,194);
+        border-radius: 50%;
+        float: left;
+        height: 10.8pt;
+        width: 10.8pt;
+    }
+
+    #cdw_lbl_widget #cdw_lbl_mainBody #cdw_lbl_otherPlayers .cdw_lbl_statRow_container .cdw_lbl_statRow .cdw_lbl_statCompare .cdw_lbl_text{
+        color: rgb(155,155,155);
+        font-family: 'Titillium', sans-serif;
+        font-size: 13pt;
+        font-style: italic;
+        font-weight: 600;
+        letter-spacing: .1pt;
+        text-align: right;
+        float: left;
+        height: 13pt;
+        margin-right: 4.1pt;
+        position: relative;
+        line-height:.6;
+    }
+
+    #cdw_lbl_widget #cdw_lbl_mainBody #cdw_lbl_otherPlayers #cdw_lbl_statsProLink{
+        background-color: rgb(1,40,94);
+        border-radius: 1.8pt;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 28pt;
+        width: 150pt;
+        position: relative;
+        margin-bottom: 19pt;
+        margin-top: 19pt;
+        float: right;
+        right: 28pt;
+    }
+
+    #cdw_lbl_widget #cdw_lbl_mainBody #cdw_lbl_otherPlayers #cdw_lbl_statsProLink .cdw_lbl_text{
+        color: white;
+        font-family: 'Titillium', sans-serif;
+        font-size: 14.6pt;
+        font-style: italic;
+        font-weight: 600;
+        letter-spacing: -.3pt;
+        line-height: .9;
+        text-align: center;
+        height: 15pt;
+        width: 117pt;
+        display: inline !important;
+    }
+
+    #cdw_lbl_widget #cdw_lbl_mainBody #cdw_lbl_otherPlayers #cdw_lbl_statRound{
+        color: rgb(179,183,195);
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 11pt;
+        font-weight: 600;
+        letter-spacing: -.3pt;
+        text-align: center;
+        height: auto;
+        width: 150pt;
+        position: relative;
+        line-height:1;
+        float: left;
+        left: 28pt;
+        margin-top: 33pt;
+        transform: translateY(-50%);
+    }
+
+    #cdw_lbl_widget #cdw_lbl_mainBody #cdw_lbl_otherPlayers #cdw_lbl_statRound:not(.cdw_lbl_round){
+        display: none;
+     }
+
+    #cdw_lbl_widget #cdw_lbl_funFact{
+         background-color: rgb(241,244,247);
+         height: 50pt;
+         width: 100%;
+         bottom: 0;
+         z-index: 3;
+         position: relative;
+    }
+
+    #cdw_lbl_widget #cdw_lbl_funFact .cdw_lbl_text{
+        color: rgb(38,36,36);
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 15pt;
+        height: 20pt;
+        width: 687.7pt;
+        position: absolute;
+        right: 38pt;
+        bottom: 13.8pt;
+        left: 24.3pt;
+        line-height: 20pt;
+    }
+
+}
+
+@media screen and (max-device-width: 552.5px){
+    #cdw_lbl_widget{
+        border: 1pt solid rgb(230,234,239);
+        box-sizing: border-box;
+        height: auto;
+        min-height: 406.45145914396887159533073929961pt;
+        width: 414pt;
+        line-height:1;
+        position: relative;
+    }
+
+    #cdw_lbl_widget #cdw_lbl_headerBar{
+        background-color: rgb(1,40,94);
+        height: 44pt;
+        width: 100%;
+        z-index: 1;
+        line-height:1;
+        position: relative;
+        top: 0;
+    }
+
+    #cdw_lbl_widget #cdw_lbl_headerBar .cdw_lbl_text{
+        color: white;
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 20pt;
+        font-weight: bold;
+        height: 37pt;
+        width: auto;
+        line-height: 36.4pt;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #cdw_lbl_widget #cdw_lbl_mainBody{
+        height: auto;
+        width: 100%;
+        position: relative;
+    }
+
+    #cdw_lbl_widget #cdw_lbl_mainBody #cdw_lbl_firstPlayer{
+        height: 334.9pt;
+        width: 100%;
+        position: relative;
+    }
+
+    #cdw_lbl_widget #cdw_lbl_mainBody #cdw_lbl_firstPlayer #cdw_lbl_teamLogo{
+        height: 70pt;
+        width: 70pt;
+        z-index: 2;
+        line-height:1;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    #cdw_lbl_widget #cdw_lbl_mainBody #cdw_lbl_firstPlayer #cdw_lbl_teamBackground{
+        background-color: rgb(245,200,0);
+        height: 244.9pt;
+        width: 100%;
+        z-index: 1;
+        line-height:1;
+        position: absolute;
+        top: 0;
+    }
+
+    #cdw_lbl_widget #cdw_lbl_mainBody #cdw_lbl_firstPlayer  #cdw_lbl_playerPhoto{
+        height: 188.4pt;
+        width: auto;
+        position: absolute;
+        top: 244.9pt;
+        left: 195.8pt;
+        z-index: 2;
+        line-height:1;
+        transform: translate(-50%, -100%)
+    }
+
+    #cdw_lbl_widget #cdw_lbl_mainBody #cdw_lbl_firstPlayer .cdw_lbl_statRank.cdw_lbl_first{
+        color: rgb(38,36,36);
+        font-size: 20pt;
+        font-family: 'Titillium Regular', sans-serif;
+        height: 61pt;
+        width: 12pt;
+        line-height: 61pt;
+        position: absolute;
+        top: 259pt;
+        left: 17.7pt;
+        transform: translateX(-50%);
+        letter-spacing: 0;
+    }
+
+    #cdw_lbl_widget #cdw_lbl_mainBody #cdw_lbl_firstPlayer .cdw_lbl_playerName.cdw_lbl_first{
+        color: rgb(2,31,73);
+        letter-spacing: 0.2pt;
+        height: 67.2pt;
+        width: auto;
+        position: absolute;
+        top: 251.7pt;
+        left: 48pt;
+    }
+
+    #cdw_lbl_widget #cdw_lbl_mainBody #cdw_lbl_firstPlayer .cdw_lbl_playerName.cdw_lbl_first .cdw_lbl_givenName{
+        font-family: 'Titillium Regular', sans-serif;
+        font-size: 24pt;
+        line-height: 33.6pt;
+    }
+
+    #cdw_lbl_widget #cdw_lbl_mainBody #cdw_lbl_firstPlayer .cdw_lbl_playerName.cdw_lbl_first .cdw_lbl_surname{
+        font-family: 'Titillium', sans-serif;
+        font-size: 31.2pt;
+        font-style: italic;
+        font-weight: bold;
+        line-height: 33.6pt;
+    }
+
+    #cdw_lbl_widget #cdw_lbl_mainBody #cdw_lbl_firstPlayer .cdw_lbl_stat{
+        color: rgb(0,44,91);
+        font-family: 'Titillium', sans-serif;
+        font-size: 49.9pt;
+        font-style: italic;
+        font-weight: bold;
+        letter-spacing: -1.4pt;
+        height: 49pt;
+        width: auto;
+        position: absolute;
+        top: 263pt;
+        left: 371.7pt;
+        transform: translateX(-50%);
+        line-height: .6;
+    }
+
+    #cdw_lbl_widget #cdw_lbl_mainBody #cdw_lbl_firstPlayer .cdw_lbl_statCompare.cdw_lbl_first{
+        height: 13pt;
+        top: 307.9pt;
+        right: 19.6pt;
+        width: auto;
+        position: absolute;
+    }
+
+    #cdw_lbl_widget #cdw_lbl_mainBody #cdw_lbl_firstPlayer .cdw_lbl_statCompare .cdw_lbl_colour{
+        border-radius: 50%;
+        float: left;
+        line-height:1;
+        height: 10.8pt;
+        width: 10.8pt;
+    }
+
+    #cdw_lbl_widget #cdw_lbl_mainBody #cdw_lbl_firstPlayer .cdw_lbl_statCompare .cdw_lbl_text{
+        height: 13pt;
+        color: rgb(155,155,155);
+        float: left;
+        font-family: 'Titillium', sans-serif;
+        font-size: 13pt;
+        font-style: italic;
+        font-weight: 600;
+        letter-spacing: .1pt;
+        position: relative;
+        margin-right: 4.1pt;
+        line-height: .6;
+    }
+
+    #cdw_lbl_widget #cdw_lbl_mainBody .cdw_lbl_horizontalLine.cdw_lbl_first{
+        background-color: rgb(230,234,239);
+        display: block;
+        height: 8pt;
+        width: 100%;
+        position: relative;
+        line-height: 1;
+    }
+
+    #cdw_lbl_widget #cdw_lbl_mainBody #cdw_lbl_otherPlayers{
+        box-sizing: border-box;
+        height: auto;
+        min-height: 25.2pt;
+        padding-top: 12.6pt;
+        padding-bottom: 12.6pt;
+        width: 100%;
+        position: relative;
+    }
+
+    #cdw_lbl_widget #cdw_lbl_mainBody #cdw_lbl_otherPlayers .cdw_lbl_statRow_container{
+        height: 60pt;
+        width: 100%;
+        position: relative;
+        float: left;
+    }
+
+    #cdw_lbl_widget #cdw_lbl_mainBody #cdw_lbl_otherPlayers .cdw_lbl_statRow_container .cdw_lbl_statRow{
+        border-bottom: 2pt solid rgb(202,210,216);
+        box-sizing: border-box;
+        height: 60pt;
+        width: 380pt;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #cdw_lbl_widget #cdw_lbl_mainBody #cdw_lbl_otherPlayers .cdw_lbl_statRow_container .cdw_lbl_statRow .cdw_lbl_statRank{
+        color: rgb(38,36,36);
+        font-family: 'Titillium Regular', sans-serif;
+        font-size: 20pt;
+        letter-spacing: 0;
+        line-height: 61pt;
+        height: 100%;
+        width: auto;
+        position: absolute;
+        left: 0;
+    }
+
+    #cdw_lbl_widget #cdw_lbl_mainBody #cdw_lbl_otherPlayers .cdw_lbl_statRow_container .cdw_lbl_statRow .cdw_lbl_photo{
+        height: 56.7pt;
+        width: auto;
+        position: absolute;
+        bottom: 0;
+        left: 51.5pt;
+        transform: translateX(-50%);
+    }
+
+    #cdw_lbl_widget #cdw_lbl_mainBody #cdw_lbl_otherPlayers .cdw_lbl_statRow_container .cdw_lbl_statRow .cdw_lbl_nameClub{
+        height: 36pt;
+        width: auto;
+        max-width: none;
+        letter-spacing: 0;
+        line-height: 18pt;
+        position: absolute;
+        bottom: 8pt;
+        left: 92pt;
+        white-space: nowrap;
+    }
+
+    #cdw_lbl_widget #cdw_lbl_mainBody #cdw_lbl_otherPlayers .cdw_lbl_statRow_container .cdw_lbl_statRow .cdw_lbl_nameClub .cdw_lbl_name{
+        color: rgb(3,28,75);
+        font-family: 'Titillium', sans-serif;
+        font-size: 20pt;
+        font-style: italic;
+        font-weight: 600;
+        max-width: none;
+    }
+
+    #cdw_lbl_widget #cdw_lbl_mainBody #cdw_lbl_otherPlayers .cdw_lbl_statRow_container .cdw_lbl_statRow .cdw_lbl_nameClub .cdw_lbl_club{
+        color: rgb(109,109,109);
+        font-family: 'Titillium Regular', sans-serif;
+        font-size: 13pt;
+        max-width: none;
+    }
+
+    #cdw_lbl_widget #cdw_lbl_mainBody #cdw_lbl_otherPlayers .cdw_lbl_statRow_container .cdw_lbl_statRow .cdw_lbl_stat{
+        color: rgb(1,40,94);
+        font-family: 'Titillium', sans-serif;
+        font-size: 26pt;
+        font-style: italic;
+        font-weight: bold;
+        letter-spacing: -1.4pt;
+        text-align: right;
+        height: auto;
+        width: auto;
+        position: absolute;
+        bottom: 12pt;
+        left: 100%;
+        transform: translate(-100%,-50%);
+    }
+
+    #cdw_lbl_widget #cdw_lbl_mainBody #cdw_lbl_otherPlayers .cdw_lbl_statRow_container .cdw_lbl_statRow .cdw_lbl_statCompare{
+        height: 13pt;
+        width: auto;
+        position: absolute;
+        bottom: 3pt;
+        right: 0;
+        white-space: nowrap;
+    }
+
+    #cdw_lbl_widget #cdw_lbl_mainBody #cdw_lbl_otherPlayers .cdw_lbl_statRow_container .cdw_lbl_statRow .cdw_lbl_statCompare .cdw_lbl_colour{
+        background-color: rgb(0,73,194);
+        border-radius: 50%;
+        float: left;
+        height: 10.8pt;
+        width: 10.8pt;
+    }
+
+    #cdw_lbl_widget #cdw_lbl_mainBody #cdw_lbl_otherPlayers .cdw_lbl_statRow_container .cdw_lbl_statRow .cdw_lbl_statCompare .cdw_lbl_text{
+        color: rgb(155,155,155);
+        font-family: 'Titillium', sans-serif;
+        font-size: 13pt;
+        font-style: italic;
+        font-weight: 600;
+        letter-spacing: .1pt;
+        text-align: right;
+        float: left;
+        height: 13pt;
+        margin-right: 4.1pt;
+        position: relative;
+        line-height:.6;
+    }
+
+    #cdw_lbl_widget #cdw_lbl_mainBody #cdw_lbl_otherPlayers #cdw_lbl_statRound{
+        color: rgb(179,183,195);
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 13pt;
+        font-weight: 600;
+        letter-spacing: -.4pt;
+        text-align: center;
+        height: 17pt;
+        width: 224.6pt;
+        position: relative;
+        margin-top: 14.2pt;
+        left: 207pt;
+        transform: translateX(-50%);
+    }
+
+    #cdw_lbl_widget #cdw_lbl_mainBody #cdw_lbl_otherPlayers #cdw_lbl_statRound:not(.cdw_lbl_round){
+        display: none;
+    }
+
+    #cdw_lbl_widget #cdw_lbl_mainBody #cdw_lbl_otherPlayers #cdw_lbl_statRound #cdw_lbl_statRoundBreak{
+        display: none;
+    }
+
+    #cdw_lbl_widget #cdw_lbl_mainBody #cdw_lbl_otherPlayers .cdw_lbl_horizontalLine.cdw_lbl_second{
+        background-color: rgb(230,234,239);
+        display: block;
+        height: 8pt;
+        width: 100%;
+        position: relative;
+        line-height: 1;
+        margin-top: 14.6pt;
+        float: left;
+    }
+
+    #cdw_lbl_widget #cdw_lbl_mainBody #cdw_lbl_statsProLink{
+        background-color: rgb(1,40,94);
+        border-radius: 1.8pt;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 44pt;
+        width: 176pt;
+        position: relative;
+        left: 115.7pt;
+        margin-top: 22.8pt;
+        float: left;
+    }
+
+    #cdw_lbl_widget #cdw_lbl_mainBody #cdw_lbl_statsProLink .cdw_lbl_text{
+        color: white;
+        font-family: 'Titillium', sans-serif;
+        font-size: 14.6pt;
+        font-style: italic;
+        font-weight: 600;
+        letter-spacing: -.3pt;
+        line-height: .9;
+        text-align: center;
+        height: 15pt;
+        width: 117pt;
+        display: inline !important;
+    }
+
+    #cdw_lbl_widget #cdw_lbl_funFact{
+        background-color: rgb(241,244,247);
+        height: 81.4pt;
+        width: 100%;
+        bottom: 0;
+        float: left;
+        position: relative;
+    }
+
+    #cdw_lbl_widget #cdw_lbl_funFact .cdw_lbl_text{
+        color: rgb(38,36,36);
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 15pt;
+        height: 40pt;
+        width: 355pt;
+        position: absolute;
+        right: 35pt;
+        bottom: 20pt;
+        left: 24pt;
+        line-height: 20pt;
+    }
+}

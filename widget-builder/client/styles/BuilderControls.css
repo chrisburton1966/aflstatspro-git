@@ -1,0 +1,22 @@
+.generate-wrapper {
+    width:100%;
+}
+
+.button {
+    width:245px;
+    min-height: 28px;
+    display:block;
+    text-align: center;
+    font-size: 15pt;
+    position: relative;
+    vertical-align: middle;
+    border:none;
+    cursor: pointer;
+    background-color: #003871;
+    color:white;
+    font-weight:normal;
+}
+
+.generate-button {
+    float:right;
+}

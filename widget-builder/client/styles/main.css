@@ -1,0 +1,216 @@
+@import './components/WidgetPicker.css';
+
+html {
+  font-family:AntennaCondMedium, "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+.container {
+  width:1000px;
+  margin: 0 auto;
+  overflow-x:visible;
+}
+
+.active {
+  background-color: #003871;
+  color:white;
+  font-weight:normal;
+}
+
+.widget-configure-wrapper {
+  width:100%;
+  margin-bottom:20px;
+  height:100%;
+}
+
+.widget-configure-wrapper .dropdown-section {
+  float:left;
+
+}
+
+.widget {
+  width: 100%;
+  overflow-x: visible;
+  border: 1px solid #f2f2f2;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;
+}
+
+.clearfix {
+  display: inline-block;
+  width: 100%;
+}
+
+.single-widget .left-col {
+  background: #c6c6c5;
+  width:368px;
+  height:200pt;
+  float:left;
+  position: relative;
+}
+
+.single-widget .right-col {
+  float:left;
+  /*height:200pt;*/
+  position: relative;
+  width:630px;
+}
+
+.single-widget .right-col.contains-6 .player-filter {
+    margin-bottom:15px;
+}
+
+.single-widget .left-col img {
+  position:absolute;
+  left: 237px;
+  height:267px;
+  width:auto;
+}
+
+.widget-toggle-container {
+  width: 735px;
+  margin: 50px auto 25px;
+  overflow: hidden;
+}
+
+.widget-content-toggle-container {
+  float:right;
+}
+
+.widget-content-toggle {
+  float:left;
+  margin-left:20px;
+}
+
+.toggle-select {
+  width:27px;
+  height:27px;
+  border:1px solid #c6c6c5;
+  background-color:#f2f2f2;
+}
+
+.toggle-select.active {
+  background: url('../images/tick.png') no-repeat center #f2f2f2;
+  background-size: 20px;
+}
+
+.widget-content-toggle .label {
+  font-size: 12pt;
+  color: #003871;
+  padding: 5px 0;
+}
+
+.hidden {
+  display:none !important;
+}
+
+.call-to-action-select {
+  float:right;
+}
+
+.caption-container {
+  padding:5px;
+  width:100%;
+
+  /* Firefox */
+  display:-moz-box;
+  -moz-box-pack:center;
+  -moz-box-align:center;
+
+  /* Safari and Chrome */
+  display:-webkit-box;
+  -webkit-box-pack:center;
+  -webkit-box-align:center;
+
+  /* W3C */
+  display:box;
+  box-pack:center;
+  box-align:center;
+
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.caption-container input {
+  width:100%;
+
+  /* Firefox */
+  display:-moz-box;
+  -moz-box-pack:center;
+  -moz-box-align:center;
+
+  /* Safari and Chrome */
+  display:-webkit-box;
+  -webkit-box-pack:center;
+  -webkit-box-align:center;
+
+  /* W3C */
+  display:box;
+  box-pack:center;
+  box-align:center;
+
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+
+/* LEADERBOARD WIDGET */
+.leaderboard {
+  padding-left:25px;
+  padding-right:20px;
+}
+
+.leaderboard-item {
+  padding-top:5px;
+  border-bottom:2px solid #cad2d8;
+  display:flex;
+  position:relative;
+}
+
+div.two-col > div{
+  width:50%;
+  float:left;
+}
+
+.leaderboard-widget-wrapper .hero {
+  width:45%;
+  position:relative;
+}
+
+.leaderboard-widget-wrapper .leaderboard {
+  width:55%;
+}
+
+.heroItemWrapper {
+  width:100%;
+  height:62pt;
+  margin:10pt auto;
+}
+
+.heroItemWrapper > div, .leaderboard-widget-wrapper > div {
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.box-centre {
+  /* Firefox */
+  display:-moz-box;
+  -moz-box-pack:center;
+  -moz-box-align:center;
+
+  /* Safari and Chrome */
+  display:-webkit-box;
+  -webkit-box-pack:center;
+  -webkit-box-align:center;
+
+  /* W3C */
+  display:box;
+  box-pack:center;
+  box-align:center;
+
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+}

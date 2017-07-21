@@ -1,0 +1,170 @@
+
+
+.comparison-widget .stat-select-container {
+    width:70%;
+    margin:0 auto;
+}
+
+/*.comparison-widget .stat-select-container.one-stat-col {*/
+    /**/
+/*}*/
+
+.player-comparison-wrapper {
+    width:100%;
+    /*height:200pt;*/
+}
+
+.player-comparison-wrapper > div:nth-child(odd) {
+    width:25%;
+}
+
+.player-comparison-wrapper > div {
+    width: 50%;
+    float:left;
+    height:200pt;
+}
+
+.player-comparison-wrapper > div:nth-child(2) {
+    padding:0px 10px;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+    text-align: center;
+}
+
+
+.player-comparison-wrapper .player {
+    background-color: #c6c6c5;
+    position:relative;
+}
+
+.player-comparison-stat-select .one-stat-col .dropdown-section {
+    float: none;
+}
+
+.player-comparison-stat-select .one-stat-col .values-wrapper {
+    position: relative;
+}
+
+.player-comparison-stat-select .one-stat-col .values-wrapper .stat-value {
+    font-size:40pt;
+    color:#01285e;
+    position: absolute;
+}
+
+.player-comparison-stat-select .one-stat-col .values-wrapper .left {
+    left:0px;
+}
+
+.player-comparison-stat-select .one-stat-col .values-wrapper .right {
+    right:0px;
+}
+
+.comparison-widget .stat-select-container .stat-value {
+    /*display:none;*/
+}
+
+.player-comparison-stat-select .stat-compare {
+    width:100%;
+    padding-top:5px;
+    padding-bottom:10px;
+    overflow: hidden;
+}
+.player-comparison-stat-select .stat-compare > div {
+    float:left;
+    width:50%;
+}
+
+.player-comparison-stat-select .stat-compare .left {
+    text-align:right;
+    padding-right:2px;
+
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.player-comparison-stat-select .stat-compare .right {
+    text-align:left;
+    padding-left:2px;
+
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.player-comparison-stat-select .stat-compare .compare {
+    height:18pt;
+    display: inline-block;
+    background-color: #b3b7c3;
+    line-height: 18pt;
+    color:white;
+    font-size:14pt;
+}
+
+.player-comparison-stat-select .stat-compare .compare.greater {
+    background-color: #198de1;
+}
+
+.player-comparison-stat-select .stat-compare .left .compare {
+    padding-right:10px;
+}
+.player-comparison-stat-select .stat-compare .right .compare {
+    padding-left:10px;
+}
+
+.player-comparison-wrapper .player.left > img {
+    left:130px;
+}
+
+.player-comparison-wrapper .player.right > img {
+    right:115px;
+}
+
+.border-box {
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box; /* Firefox, other Gecko */
+    box-sizing: border-box; /* Opera/IE 8+ */
+}
+
+/* RESIZE THE PLAYER AND SQUAD SELECT BOXES */
+.player-comparison-player-select-wrapper > div {
+    float:left;
+}
+
+.player-comparison-player-select-wrapper .player-right {
+    float:right;
+}
+
+.player-comparison-player-select-wrapper .call-to-action .call-to-action-select,
+.player-comparison-player-select-wrapper .call-to-action .call-to-action-select .Select-control {
+    width: 227px;
+    /*margin-right:10px;*/
+}
+
+.player-comparison-player-select-wrapper .player-select-container .player-filter {
+    margin:0;
+}
+
+.player-comparison-player-select-wrapper .player-select-container .player-filter .player-select {
+    width: 250px;
+}
+
+
+.player-comparison-player-select-wrapper .player-select-container.player-right .dropdown-section {
+    margin-left:10px;
+    margin-right:0px;
+}
+
+.player-comparison-stat-select .one-stat-col .values-wrapper.compare-percents .stat-value {
+    height:auto;
+    font-size: 24pt;
+}
+
+.recharts-pie-labels > g:nth-child(2) {
+    display: none;
+}
+
+.stat-select-container.one-stat-col {
+    padding-top: 25px;
+}

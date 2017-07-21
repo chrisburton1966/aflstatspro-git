@@ -1,0 +1,14 @@
+.single-widget .squad-background {
+    background: #c6c6c5;
+    width:300px;
+    height:250px;
+    float:left;
+    position: relative;
+}
+
+.single-widget .squad-background img {
+    position:absolute;
+    left: 237px;
+    height:267px;
+    width:auto;
+}

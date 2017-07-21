@@ -1,0 +1,105 @@
+.single-widget .widget-details-builder {
+    background: white;
+    height:250px;
+    margin-left:300px;
+    padding-right:5px;
+}
+
+.single-widget .widget-container {
+    /*height:320px;*/
+}
+
+
+.single-widget .stat-select-container {
+    width:100%;
+
+    margin-top:10px;
+    padding-left:60px;
+
+    /* Firefox */
+    display:-moz-box;
+    -moz-box-pack:center;
+    -moz-box-align:center;
+
+    /* Safari and Chrome */
+    display:-webkit-box;
+    -webkit-box-pack:center;
+    -webkit-box-align:center;
+
+    /* W3C */
+    display:box;
+    box-pack:center;
+    box-align:center;
+
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+
+
+.single-widget .stat-select-container.six-stat-col .stat-container {
+    float:left;
+    margin-bottom:5px;
+}
+
+.single-widget .stat-select-container .dropdown-section {
+    margin:0;
+    clear:both;
+    float:none;
+}
+
+.single-widget .stat-select-container .select-stat {
+    padding:0 5px;
+}
+
+.single-widget .stat-select-container.two-stat-col .col-0 {
+    border-right:2px solid #c6c6c5;
+}
+
+.single-widget .stat-select-container.three-stat-col .col-0, .single-widget .stat-select-container.three-stat-col .col-1,
+.single-widget .stat-select-container.six-stat-col .col-0, .single-widget .stat-select-container.six-stat-col .col-1,
+.single-widget .stat-select-container.six-stat-col .col-3, .single-widget .stat-select-container.six-stat-col .col-4 {
+    border-right:2px solid #c6c6c5;
+}
+
+.single-widget .stat-select-container.six-stat-col {
+    display: block;
+    overflow-y: visible;
+    /* float: right; */
+    width: 630px !important;
+    margin: 0 81px;
+    padding-left: 0;
+    /* text-align: center; */
+}
+
+.single-widget .stat-select-container.six-stat-col .Select-input {
+    height:22px;
+
+}
+.single-widget .stat-select-container.six-stat-col .Select-placeholder,
+.single-widget .stat-select-container.six-stat-col .Select--single > .Select-control .Select-value {
+    line-height:22px;
+    height:22px;
+}
+
+/*.single-widget .stat-select-container.six-stat-col .Select-control,*/
+/*.player-comparison-stat-select .Select-control{*/
+    /*height:22px;*/
+/*}*/
+
+.single-widget .stat-select-container.six-stat-col .stat-value {
+    height:24pt;
+    font-size:24pt;
+    line-height:24pt;
+}
+
+.stat-value {
+    height:48pt;
+    line-height:48pt;
+    font-size:48pt;
+    font-weight:bold;
+    color:#c6c6c5;
+    text-align: center;
+    padding:10px 0;
+}
